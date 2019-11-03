@@ -70,15 +70,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func processDisplayChanged(_ sender: Any) {
         if let tempAns = calculate(processDisplay.text!){
-            ans = tempAns
             let numberFormatter = NumberFormatter()
-            if String(ans).count < 12{
+            if String(tempAns).count < 12{
                 numberFormatter.usesSignificantDigits = true
                 numberFormatter.maximumSignificantDigits = 12
             } else{
                 numberFormatter.positiveFormat = "0.#########E+0"
             }
-            resultDisplay.text = numberFormatter.string(from: NSNumber(value: ans))
+            resultDisplay.text = numberFormatter.string(from: NSNumber(value: tempAns))
         } else{
             resultDisplay.text = ""
         }
