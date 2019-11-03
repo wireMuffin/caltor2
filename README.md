@@ -16,7 +16,7 @@
 
 ## Dependencies
 
-[DDMathParser][https://github.com/davedelong/DDMathParser] is used for calculations
+[DDMathParser](https://github.com/davedelong/DDMathParser) is used for calculations
 
 ## Known Bugs
 
