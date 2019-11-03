@@ -214,6 +214,5 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(_ scoreText: UITextField) -> Bool {
         self.view.endEditing(true)
     }
-
 }
 
