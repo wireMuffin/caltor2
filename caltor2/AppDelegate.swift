@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  caltor2
 //
-//  Created by Kevin on 22/4/2018.
-//  Updated by Kevin on 1/11/2019.
+//  Created by WireMuffin on 22/4/2018.
+//  Updated by WireMuffin on 1/11/2019.
 //  Copyright © 2019 Kevin. All rights reserved.
 //
 
