@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		0ADF3046208CC71E00A76315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADF3044208CC71E00A76315 /* LaunchScreen.storyboard */; };
 		0ADF3051208CC71E00A76315 /* caltor2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF3050208CC71E00A76315 /* caltor2Tests.swift */; };
 		0ADF305C208CC71E00A76315 /* caltor2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF305B208CC71E00A76315 /* caltor2UITests.swift */; };
+		1D00E4E434480E4B149519A4 /* Pods_caltor2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2245E6362E7941F33F6B4FE /* Pods_caltor2.framework */; };
+		7831DF43885DCC08889565E8 /* Pods_caltor2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60270A2729469B11B94FC64 /* Pods_caltor2Tests.framework */; };
+		E2B2C9133120624A584818A3 /* Pods_caltor2_caltor2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03AE83A21AD12C83B53D7A /* Pods_caltor2_caltor2UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0ADF3057208CC71E00A76315 /* caltor2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caltor2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADF305B208CC71E00A76315 /* caltor2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caltor2UITests.swift; sourceTree = "<group>"; };
 		0ADF305D208CC71E00A76315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB703B8E8E15C4E9488FAA4 /* Pods-caltor2-caltor2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caltor2-caltor2UITests.debug.xcconfig"; path = "Target Support Files/Pods-caltor2-caltor2UITests/Pods-caltor2-caltor2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C1CC90321651F8EF6C27C94 /* Pods-caltor2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caltor2.release.xcconfig"; path = "Target Support Files/Pods-caltor2/Pods-caltor2.release.xcconfig"; sourceTree = "<group>"; };
+		3F03AE83A21AD12C83B53D7A /* Pods_caltor2_caltor2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caltor2_caltor2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE8DF09E8F7B7A52CDD8588 /* Pods-caltor2-caltor2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caltor2-caltor2UITests.release.xcconfig"; path = "Target Support Files/Pods-caltor2-caltor2UITests/Pods-caltor2-caltor2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C931008D05A907A04776B47 /* Pods-caltor2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caltor2.debug.xcconfig"; path = "Target Support Files/Pods-caltor2/Pods-caltor2.debug.xcconfig"; sourceTree = "<group>"; };
+		B7CDD7F80A80C4E29DE1C4F5 /* Pods-caltor2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caltor2Tests.debug.xcconfig"; path = "Target Support Files/Pods-caltor2Tests/Pods-caltor2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2245E6362E7941F33F6B4FE /* Pods_caltor2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caltor2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36668CA5B8763C8721B5F40 /* Pods-caltor2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caltor2Tests.release.xcconfig"; path = "Target Support Files/Pods-caltor2Tests/Pods-caltor2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F60270A2729469B11B94FC64 /* Pods_caltor2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caltor2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D00E4E434480E4B149519A4 /* Pods_caltor2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7831DF43885DCC08889565E8 /* Pods_caltor2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B2C9133120624A584818A3 /* Pods_caltor2_caltor2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0ADF304F208CC71E00A76315 /* caltor2Tests */,
 				0ADF305A208CC71E00A76315 /* caltor2UITests */,
 				0ADF3039208CC71D00A76315 /* Products */,
+				861E88CE67783651F53AC6AC /* Pods */,
+				57DCC9DE2AEFA7E8C37EA7CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = caltor2UITests;
 			sourceTree = "<group>";
 		};
+		57DCC9DE2AEFA7E8C37EA7CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2245E6362E7941F33F6B4FE /* Pods_caltor2.framework */,
+				3F03AE83A21AD12C83B53D7A /* Pods_caltor2_caltor2UITests.framework */,
+				F60270A2729469B11B94FC64 /* Pods_caltor2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		861E88CE67783651F53AC6AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C931008D05A907A04776B47 /* Pods-caltor2.debug.xcconfig */,
+				3C1CC90321651F8EF6C27C94 /* Pods-caltor2.release.xcconfig */,
+				0EB703B8E8E15C4E9488FAA4 /* Pods-caltor2-caltor2UITests.debug.xcconfig */,
+				7DE8DF09E8F7B7A52CDD8588 /* Pods-caltor2-caltor2UITests.release.xcconfig */,
+				B7CDD7F80A80C4E29DE1C4F5 /* Pods-caltor2Tests.debug.xcconfig */,
+				F36668CA5B8763C8721B5F40 /* Pods-caltor2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ADF3060208CC71E00A76315 /* Build configuration list for PBXNativeTarget "caltor2" */;
 			buildPhases = (
+				B9A3E34B9FC0C4B74939770D /* [CP] Check Pods Manifest.lock */,
 				0ADF3034208CC71D00A76315 /* Sources */,
 				0ADF3035208CC71D00A76315 /* Frameworks */,
 				0ADF3036208CC71D00A76315 /* Resources */,
+				4F9D487E2E028DBA6D131E8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ADF3063208CC71E00A76315 /* Build configuration list for PBXNativeTarget "caltor2Tests" */;
 			buildPhases = (
+				9F3B69B1D743F8E3D4F3201D /* [CP] Check Pods Manifest.lock */,
 				0ADF3048208CC71E00A76315 /* Sources */,
 				0ADF3049208CC71E00A76315 /* Frameworks */,
 				0ADF304A208CC71E00A76315 /* Resources */,
@@ -167,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ADF3066208CC71E00A76315 /* Build configuration list for PBXNativeTarget "caltor2UITests" */;
 			buildPhases = (
+				54B3A352276EDFC2997724FD /* [CP] Check Pods Manifest.lock */,
 				0ADF3053208CC71E00A76315 /* Sources */,
 				0ADF3054208CC71E00A76315 /* Frameworks */,
 				0ADF3055208CC71E00A76315 /* Resources */,
+				070039D5FF64B0306C8B3D56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +295,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070039D5FF64B0306C8B3D56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caltor2-caltor2UITests/Pods-caltor2-caltor2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caltor2-caltor2UITests/Pods-caltor2-caltor2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-caltor2-caltor2UITests/Pods-caltor2-caltor2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9D487E2E028DBA6D131E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caltor2/Pods-caltor2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caltor2/Pods-caltor2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-caltor2/Pods-caltor2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B3A352276EDFC2997724FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-caltor2-caltor2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3B69B1D743F8E3D4F3201D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-caltor2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A3E34B9FC0C4B74939770D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-caltor2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0ADF3034208CC71D00A76315 /* Sources */ = {
@@ -428,10 +576,13 @@
 		};
 		0ADF3061208CC71E00A76315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C931008D05A907A04776B47 /* Pods-caltor2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59AP6UC9YC;
 				INFOPLIST_FILE = caltor2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,16 +590,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kevin.caltor2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0ADF3062208CC71E00A76315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1CC90321651F8EF6C27C94 /* Pods-caltor2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59AP6UC9YC;
 				INFOPLIST_FILE = caltor2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +610,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kevin.caltor2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		0ADF3064208CC71E00A76315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CDD7F80A80C4E29DE1C4F5 /* Pods-caltor2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +637,7 @@
 		};
 		0ADF3065208CC71E00A76315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36668CA5B8763C8721B5F40 /* Pods-caltor2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +658,7 @@
 		};
 		0ADF3067208CC71E00A76315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB703B8E8E15C4E9488FAA4 /* Pods-caltor2-caltor2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +678,7 @@
 		};
 		0ADF3068208CC71E00A76315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE8DF09E8F7B7A52CDD8588 /* Pods-caltor2-caltor2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
